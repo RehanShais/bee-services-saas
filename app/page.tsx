@@ -1,4 +1,5 @@
-import React, { useState, useEffect } from 'react';
+"use client";
+import { useState, useEffect } from 'react';
 import { 
   Hexagon, 
   MessageSquare, 
@@ -909,5 +910,6 @@ const BeeServicesApp = () => {
     </div>
   );
 };
+
 
 export default BeeServicesApp;
